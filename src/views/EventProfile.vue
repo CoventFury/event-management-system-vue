@@ -82,6 +82,9 @@ import Sidebar from "../components/Sidebar.vue";
   font-weight: 600;
   color: #0f0b5d;
 }
+iframe {
+  width: 95%;
+}
 .content-titles {
   font-family: "Hind", sans-serif;
   font-size: 3rem;
@@ -97,6 +100,12 @@ import Sidebar from "../components/Sidebar.vue";
 
 .description-header {
   margin-top: 5%;
+  @media (max-width: 768px) {
+    margin-top: 10%;
+  }
+  @media (max-width: 430px) {
+    margin-top: 35%;
+  }
 }
 .description-header p {
   color: #0f0b5d;

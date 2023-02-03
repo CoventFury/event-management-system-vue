@@ -27,30 +27,24 @@
             ><img src="../assets/img/upload.svg" class="upload-icon"
           /></label>
         </div>
-        <div class="container">
-          <form>
-            <div class="top-input">
-              <div class="title-placeholder">
-                <label>Event Title</label>
-                <input type="text" placeholder="Enter event name" />
-              </div>
-              <div class="date-placeholder">
-                <label>Date</label>
-                <input type="date" placeholder="mm/dd/yyyy" />
-              </div>
-              <div class="time-placeholder">
-                <label>Time</label>
-                <input type="time" placeholder="hh:mm AM/PM" />
-              </div>
-            </div>
-          </form>
-        </div>
         <div class="additional-events">
-          <label>Time</label>
-          <input type="time" placeholder="hh:mm AM/PM" />
+          <div class="event-entry">
+            <label>Event Name<br /> </label>
+            <textarea placeholder="Lorem Ipsum..."></textarea>
+          </div>
+          <div class="date-entry">
+            <label>Date<br /> </label>
+            <textarea placeholder="Lorem Ipsum..."></textarea>
+          </div>
+          <div class="time-entry">
+            <label>Time<br /> </label>
+            <textarea placeholder="Lorem Ipsum..."></textarea>
+          </div>
         </div>
-        <div class="additional-events">
-          <label> Additional Event Details <br /> </label>
+        <div class="additional-entry">
+          <label class="additional-label">
+            Additional Event Details <br />
+          </label>
           <textarea placeholder="Lorem Ipsum..."></textarea>
         </div>
         <div class="invite-participants">
@@ -121,6 +115,9 @@ body {
   margin-bottom: 30px;
 }
 
+.additional-label {
+  margin-left: 90px;
+}
 .wrapper h2 {
   position: absolute;
   top: 25px;
@@ -187,6 +184,9 @@ form {
   position: relative;
 }
 
+.event-texts {
+  width: 100px;
+}
 .upload-icon {
   position: absolute;
   width: 40px;
@@ -201,53 +201,19 @@ form {
     brightness(104%) contrast(96%);
 }
 
-.top-input {
+.additional-events {
   display: flex;
-  margin-top: 1rem;
-  justify-content: space-between;
-  margin-right: 4rem;
 }
-.top-input label {
-  font-weight: 500;
-  color: #5d5d5d;
-}
-.top-input input {
-  border: 0;
-  outline: 0;
-  width: 90%;
-  font-size: 1.25rem;
-  font-weight: 600;
-  border-bottom: 2px solid #d9d9d9;
-  background-color: transparent;
-}
-
-.top-input input:active {
-  border-bottom: 2px solid black;
-}
-::placeholder {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
 .additional-events label {
   color: #5d5d5d;
   margin-left: 6vw;
   font-weight: 500;
 }
-.additional-events input {
-  border: 0;
-  outline: 0;
-  width: 90%;
-  font-size: 1.25rem;
-  font-weight: 600;
-  border-bottom: 2px solid #d9d9d9;
-  background-color: transparent;
-}
 textarea {
   resize: none;
   overflow: hidden;
   margin-left: 6vw;
-  width: 80%;
+  width: 75%;
   border: 0;
   outline: 0;
   background-color: transparent;
@@ -262,7 +228,7 @@ textarea {
   border: 0;
   color: #fff;
   position: absolute;
-
+  bottom: 100px;
   width: 80%;
   height: 40px;
   font-size: 0.75rem;

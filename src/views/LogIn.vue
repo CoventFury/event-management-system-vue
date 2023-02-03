@@ -70,6 +70,9 @@ input {
 
 .img-slideshow {
   background: url("../src/assets/img/6702855.jpg");
+  @media (max-width: 1200px) {
+    opacity: 0;
+  }
 }
 
 form {

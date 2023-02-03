@@ -14,12 +14,11 @@
         alt="Profile Picture"
         src="../assets/img/profile_pic.jpg"
       />
-      <h2 class="profile-name">Lorem Ipsum</h2>
     </div>
   </div>
   <div class="main-container">
     <div class="about-header">
-      <h1 class="content-title">About</h1>
+      <h1 class="content-title">Raphael Saavedra Orillano</h1>
       <span class="material-symbols-outlined"> edit_note </span>
     </div>
     <p class="lorem-text">
@@ -121,7 +120,7 @@ import Sidebar from "../components/Sidebar.vue";
   border-radius: 50px;
   z-index: 1;
   top: 6%;
-  left: 45rem;
+  left: 50%;
 }
 
 .profile-name {
