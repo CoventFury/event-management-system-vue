@@ -63,7 +63,7 @@
         <div class="location-info">
           <span class="material-symbols-outlined"> location_on </span>
           <p>DCST Building, VSU</p>
-          <form action="/events-name">
+          <form action="/event-name">
             <button class="see-details-btn">See details</button>
           </form>
         </div>
@@ -84,7 +84,7 @@
         <div class="location-info">
           <span class="material-symbols-outlined"> location_on </span>
           <p>DCST Building, VSU</p>
-          <form action="/events-name">
+          <form action="/event-name">
             <button class="see-details-btn">See details</button>
           </form>
         </div>
